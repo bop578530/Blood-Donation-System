@@ -1,0 +1,83 @@
+{% extends "base.html" %}
+
+{%block body%} 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        {%block title%} Blood Donantion Home   {% endblock title %}
+    </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        nav{
+            background-color: #ffffff;
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        p {
+            line-height: 1.6;
+        }
+        .event {
+            margin-bottom: 20px;
+            padding: 10px;
+            background-color: #f9f9f9;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Welcome to Our Blood Donation Website</h1>
+    <p>At our organization, we are dedicated to promoting blood donation and ensuring that hospitals and patients have an adequate blood supply. Your support is vital in helping us save lives.</p>
+    
+    <h2>Upcoming Events</h2>
+    <div class="event">
+        <h3>Blood Drive at City Hall</h3>
+        <p>Date: June 15, 2024</p>
+        <p>Time: 9:00 AM - 3:00 PM</p>
+        <p>Location: City Hall, 123 Main St, Anytown</p>
+        <p>Join us for a community blood drive. Your donation could save a life!</p>
+    </div>
+    <div class="event">
+        <h3>Blood Donation Awareness Seminar</h3>
+        <p>Date: July 5, 2024</p>
+        <p>Time: 6:00 PM - 8:00 PM</p>
+        <p>Location: Community Center, 456 Elm St, Anytown</p>
+        <p>Learn about the importance of blood donation and how you can make a difference.</p>
+    </div>
+    
+    <h2>How You Can Help</h2>
+    <p>There are several ways you can get involved:</p>
+    <ul>
+        <li>Donate Blood: Your donation could save a life. Find a blood drive near you and donate regularly.</li>
+        <li>Volunteer: We're always in need of volunteers to assist with blood drives, events, and administrative tasks.</li>
+        <li>Spread Awareness: Help us raise awareness about the importance of blood donation. Share information with your friends, family, and community.</li>
+    </ul>
+    
+    <h2>Contact Us</h2>
+    <p>If you have any questions or would like to learn more about blood donation, please don't hesitate to contact us:</p>
+    <p>Email: info@blooddonation.org</p>
+    <p>Phone: 1-800-555-1234</p>
+</div>
+
+</body>
+</html>
+
+{%endblock body%}
